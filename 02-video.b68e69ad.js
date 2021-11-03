@@ -7,4 +7,4 @@ var t=arguments[3],n="Expected a function",e=NaN,i="[object Symbol]",r=/^\s+|\s+
 },{}],"iiAF":[function(require,module,exports) {
 "use strict";var e=o(require("@vimeo/player")),t=o(require("lodash.throttle"));function o(e){return e&&e.__esModule?e:{default:e}}const r=document.querySelector("#vimeo-player"),n=new Vimeo.Player(r),a="videoplayer-current-time",i=function(e){localStorage.setItem(a,e.seconds)};function u(){const e=localStorage.getItem(a);e&&n.setCurrentTime(e)}n.on("timeupdate",(0,t.default)(i,1e3)),window.addEventListener("DOMContentLoaded",u);
 },{"@vimeo/player":"zU8P","lodash.throttle":"FNyO"}]},{},["iiAF"], null)
-//# sourceMappingURL=https://github.com/dimatomilow/goit-js-hw-08/02-video.b68e69ad.js.map
+//# sourceMappingURL=/goit-js-hw-08/02-video.b68e69ad.js.map
