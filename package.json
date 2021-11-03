@@ -13,10 +13,10 @@
     "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Dmitro Tomilow <masikuspaime@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/dimatomilow/goit-js-hw-08"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
